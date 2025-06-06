@@ -5,10 +5,13 @@
 This project describes a custom-designed microcontroller development board, similar to an Arduino Nano, based on the ATmega328P-M. The board integrates a stable 5V power supply, a USB-to-serial converter for programming and UART/SPI communication, and comprehensive pin headers for flexible interfacing.
 
 <p align="center">
-    <img src="Images/Front.png" width="700" alt="Front view of the PCB">
+    <img src="Arduino-Nano/Images/Front.png" width="700" alt="Front view of the PCB">
+    <p align="center">Figure 1: Front view of the PCB</p>
 </p>
+
 <p align="center">
-    <img src="Images/Back.png" width="700" alt="Back view of the PCB">
+    <img src="Arduino-Nano/Images/Back.png" width="700" alt="Back view of the PCB">
+    <p align="center">Figure 2: Back view of the PCB</p>
 </p>
 
 ## Project Architecture
@@ -29,21 +32,21 @@ The PCB is meticulously designed with the following **4 layers** to optimize **s
 1.  **Layer Top (F.Cu - Front Copper):**
 
     - **Description:** This is the primary **component placement layer**, primarily accommodating **Surface Mount Devices (SMDs)** and **through-hole components**. It's strategically utilized for **critical high-speed signal routing**, **decoupling capacitor placement**, and minimizing trace lengths for **impedance control** on sensitive lines.
-    - ![Top Layer View](Images/Layer1.png "View of the PCB's top copper layer, showing components and primary routing.")
+    - ![Top Layer View](Arduino-Nano/Images/Layer1.png "View of the PCB's top copper layer, showing components and primary routing.")
 
 2.  **5V (In1.Cu - Inner Copper 1):**
 
     - **Description:** A dedicated **internal power plane** for the **+5V rail**. This continuous copper plane ensures **low-impedance power distribution**, minimizing **voltage ripple** and providing a robust, stable current source across the entire board, critical for **power integrity** of digital logic.
-    - ![5V Power Layer View](Images/Layer2.png "Dedicated internal layer for stable 5V power delivery network.")
+    - ![5V Power Layer View](Arduino-Nano/Images/Layer2.png "Dedicated internal layer for stable 5V power delivery network.")
 
 3.  **GND (In2.Cu - Inner Copper 2):**
 
     - **Description:** A comprehensive **internal ground plane**. This solid plane serves as a universal **low-impedance return path** for all signals, significantly reducing **electromagnetic interference (EMI)**, enhancing **electromagnetic compatibility (EMC)**, and providing effective **shielding** for sensitive traces.
-    - ![Ground Plane View](Images/Layer3.png "Dedicated internal layer serving as a robust ground reference and EMI shield.")
+    - ![Ground Plane View](Arduino-Nano/Images/Layer3.png "Dedicated internal layer serving as a robust ground reference and EMI shield.")
 
 4.  **Layer Bottom (B.Cu - Bottom Copper):**
     - **Description:** Utilized for completing **signal routing**, particularly for less sensitive signals or those requiring longer runs. This layer also accommodates additional **SMD component placement** and provides flexibility for **thermal management** via copper pours if needed.
-    - ![Bottom Layer View](Images/Layer4.png "View of the PCB's bottom copper layer, showing secondary routing and component placement.")
+    - ![Bottom Layer View](Arduino-Nano/Images/Layer4.png "View of the PCB's bottom copper layer, showing secondary routing and component placement.")
 
 ## Key Components
 
