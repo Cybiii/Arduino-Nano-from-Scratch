@@ -4,10 +4,12 @@
 
 This project describes a custom-designed microcontroller development board, similar to an Arduino Nano, based on the ATmega328P-M. The board integrates a stable 5V power supply, a USB-to-serial converter for programming and UART/SPI communication, and comprehensive pin headers for flexible interfacing.
 
-<div style="width: 1000px; margin: 0 auto; display: flex; justify-content: center;">
-  <img src="Images/Front.png" width="500">
-  <img src="Images/Back.png" width="500">
-</div>
+<p align="center">
+    <img src="Images/Front.png" width="700" alt="Front view of the PCB">
+</p>
+<p align="center">
+    <img src="Images/Back.png" width="700" alt="Back view of the PCB">
+</p>
 
 
 ## Project Architecture
