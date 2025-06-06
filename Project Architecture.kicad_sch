@@ -1,0 +1,542 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "43756dca-f8f6-4179-bbe2-5af9585c666d")
+	(paper "A4")
+	(title_block
+		(title "Cover Page")
+		(date "2025-06-05")
+		(rev "v1.0")
+		(company "sebastiansebs.com")
+	)
+	(lib_symbols)
+	(text "5.0V"
+		(exclude_from_sim no)
+		(at 91.694 80.264 90)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "0a3b1586-9953-403e-831b-7f817a557509")
+	)
+	(text "VBUS\n"
+		(exclude_from_sim no)
+		(at 97.79 80.01 90)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "135dd4a2-e26d-40fb-b176-3b8683455340")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 169.672 55.88 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "5606ec61-2fcd-4df4-8f1b-731b94cdc1ff")
+	)
+	(text "5.0V"
+		(exclude_from_sim no)
+		(at 119.38 49.276 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "593ea9f5-e36a-4891-a05e-18870704117a")
+	)
+	(text "3.3V\n"
+		(exclude_from_sim no)
+		(at 169.926 61.976 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "758b3c6d-961d-46c1-a6cb-bbdb26b41af3")
+	)
+	(text "RESET"
+		(exclude_from_sim no)
+		(at 119.38 98.806 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "87bbcde0-660b-428a-bdd5-75c4963e171d")
+	)
+	(text "A0-A7\n"
+		(exclude_from_sim no)
+		(at 172.72 100.584 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "8a540b07-8c55-42ab-8735-45300f8eb500")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 119.38 55.626 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "9b486335-9b0f-494b-803d-70cbe0660845")
+	)
+	(text "AREF"
+		(exclude_from_sim no)
+		(at 172.72 90.17 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "a2bebfb5-1da0-4de6-a1bf-476f63d24b98")
+	)
+	(text "RX/TX\n"
+		(exclude_from_sim no)
+		(at 119.38 105.156 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "a4cb26a9-ded9-47ac-88c1-306ac486236d")
+	)
+	(text "RESET"
+		(exclude_from_sim no)
+		(at 172.72 105.41 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "a5935efc-33eb-4a7d-9f88-49a264751a7e")
+	)
+	(text "5.0V"
+		(exclude_from_sim no)
+		(at 169.926 49.276 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "e91e6fd5-9a20-4037-9910-64aeb634283a")
+	)
+	(text "D0-D13\n"
+		(exclude_from_sim no)
+		(at 172.72 95.25 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "fc7cd079-a1a1-4bbb-bf2e-68739997afb0")
+	)
+	(text_box "[3] Project Architecture"
+		(exclude_from_sim no)
+		(at 78.74 17.78 0)
+		(size 130.81 12.7)
+		(margins 5.9999 5.9999 5.9999 5.9999)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 8 8)
+				(thickness 1.2)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "7fa5cc40-6c97-487c-9cc7-412504f68533")
+	)
+	(polyline
+		(pts
+			(xy 165.1 91.44) (xy 180.34 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13567987-b538-498d-a6df-2a07d2756435")
+	)
+	(polyline
+		(pts
+			(xy 111.76 50.8) (xy 127 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "189c18d5-8b50-4260-ba69-bfe94b4c0630")
+	)
+	(polyline
+		(pts
+			(xy 165.1 50.8) (xy 198.12 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20ec26b6-b229-4e3b-baf2-c89aae9a5bdf")
+	)
+	(polyline
+		(pts
+			(xy 165.1 101.6) (xy 180.34 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23bdb305-f33e-4395-8bdd-088782732fe1")
+	)
+	(polyline
+		(pts
+			(xy 198.12 50.8) (xy 198.12 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28efe4d3-6572-426a-a24b-7645a58b55ba")
+	)
+	(polyline
+		(pts
+			(xy 111.76 106.68) (xy 127 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29b3c65b-c405-43f2-9029-1f97912c3957")
+	)
+	(polyline
+		(pts
+			(xy 92.71 87.63) (xy 92.71 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ab34560-e5a2-4f47-af35-ad5b18df9d86")
+	)
+	(polyline
+		(pts
+			(xy 187.96 63.5) (xy 187.96 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4894afba-b352-49dc-82b7-2820511c776a")
+	)
+	(polyline
+		(pts
+			(xy 165.1 57.15) (xy 193.04 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a36d0a3-1f02-419e-8520-701fca2ca6e3")
+	)
+	(polyline
+		(pts
+			(xy 111.76 57.15) (xy 127 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "931ea986-d634-4634-b0df-37e796401bb1")
+	)
+	(polyline
+		(pts
+			(xy 193.04 57.15) (xy 193.04 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8c958c2-a2fc-444e-944c-487d9360c0a7")
+	)
+	(polyline
+		(pts
+			(xy 165.1 96.52) (xy 180.34 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adf242c3-5e98-413f-b7ae-9d33969a5ada")
+	)
+	(polyline
+		(pts
+			(xy 111.76 100.33) (xy 127 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b31fef3b-8b47-45d5-b078-b1480b611a8c")
+	)
+	(polyline
+		(pts
+			(xy 99.06 87.63) (xy 99.06 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d511c578-0dd7-487c-92f7-412592b2c9ee")
+	)
+	(polyline
+		(pts
+			(xy 165.1 106.68) (xy 180.34 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "debbd4e0-7e6d-46f0-9cb4-f888b45b168d")
+	)
+	(polyline
+		(pts
+			(xy 165.1 63.5) (xy 187.96 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5afb9ec-0f36-43f2-ac55-bce70010aed7")
+	)
+	(sheet
+		(at 74.93 44.45)
+		(size 36.83 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 200 0 0.5020)
+		)
+		(uuid "0a302650-702c-435b-9208-950384b1a23d")
+		(property "Sheetname" "Power Supply"
+			(at 74.93 43.3574 0)
+			(effects
+				(font
+					(size 2.032 2.032)
+					(thickness 0.4064)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power Supply.kicad_sch"
+			(at 74.93 73.1778 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Arduino Nano"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 44.45)
+		(size 38.1 104.14)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 48 191 6 0.5500)
+		)
+		(uuid "110cfcc7-8be4-4abf-8132-9d426466e7c5")
+		(property "Sheetname" "Microcontroller"
+			(at 127 43.3574 0)
+			(effects
+				(font
+					(size 2.032 2.032)
+					(thickness 0.4064)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Microcontroller.kicad_sch"
+			(at 127 149.3778 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Arduino Nano"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 83.82)
+		(size 36.83 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 128 255 128 0.5000)
+		)
+		(uuid "7d5a1283-086b-46b0-8df7-a9850521fb5e")
+		(property "Sheetname" "Pins"
+			(at 180.34 82.7274 0)
+			(effects
+				(font
+					(size 2.032 2.032)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Pins.kicad_sch"
+			(at 180.34 120.1678 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Arduino Nano"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 74.93 87.63)
+		(size 36.83 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 49 132 255 0.5500)
+		)
+		(uuid "b59fe6fb-8d8d-4ae0-bc83-b6a1902d697c")
+		(property "Sheetname" "USB Port"
+			(at 74.93 86.5374 0)
+			(effects
+				(font
+					(size 2.032 2.032)
+					(thickness 0.4064)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB Port.kicad_sch"
+			(at 74.93 120.1678 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Arduino Nano"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "6")
+				)
+			)
+		)
+	)
+)
